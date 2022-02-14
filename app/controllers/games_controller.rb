@@ -4,7 +4,7 @@ class GamesController < ApplicationController
   end
 
   def score
-    # if params[:guess]
-    raise
+    params[:guess].split('').each |letter|
+      if letter   
   end
 end
