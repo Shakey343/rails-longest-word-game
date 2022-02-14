@@ -4,5 +4,7 @@ class GamesController < ApplicationController
   end
 
   def score
+    # if params[:guess]
+    raise
   end
 end
